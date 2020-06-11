@@ -1,0 +1,115 @@
+
+
+.player {
+  background-color: $main-color;
+  border: 2px solid $border-color;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 50rem;
+  width: 25rem;
+
+  flex-shrink: 0;
+}
+
+.player__kbd-keys, .player__race-stat {
+  border-bottom: 2px solid $border-color;
+  box-sizing: border-box;
+  height: 28%;
+}
+
+.player__race-stat {
+  height: 20%;
+}
+
+.player__kbd-keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.player__settings {
+
+}
+
+.race-stat {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.race-stat__name {
+  color: #7e3913;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.race-stat__points {
+  color: #bd8a60;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.kbd-key {
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgba(255, 31, 86, 0.5);
+  font-size: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  margin: 0 1rem 0 0;
+  text-align: center;
+  width: 4rem;
+}
+
+.kbd-key_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kbd-key:first-child {
+  margin: 0 40% 1rem;
+}
+
+.kbd-key:last-child {
+  margin: 0;
+}
+
+.settings {
+  padding: 1rem;
+}
+
+.settings__name-input {
+  border: 0;
+  border-bottom: 5px solid $border-color;
+  background-color: #1e1c27;
+  color: #f8e8ac;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.settings__header {
+  color: $text-color;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.sprite-picker {
+  align-items: center;
+  color: $text-color;
+  display: flex;
+  font-size: 4rem;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+
+.sprite-picker__img {
+  max-height: 10rem;
+}

@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "filename": "assets/cars/bat.png",
+      "color": "#000000",
+      "width": 36,
+      "height": 62
+    }, 
+    {
+      "filename": "assets/cars/jeep.png",
+      "color": "#bf0005",
+      "width": 36,
+      "height": 62
+    },
+    {
+      "filename": "assets/cars/race.png",
+      "color": "#c4a527",
+      "width": 36,
+      "height": 62
+    }
+  ]
+}

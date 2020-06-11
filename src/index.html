@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>Game!</title>
+    <script src="https://kit.fontawesome.com/26edc6ebf5.js" crossorigin="anonymous" defer></script> 
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="player">
+        <div class="race-stat player__race-stat">
+          <i class="blue fas fa-car" id="first-player-icon"></i>
+          <span class="race-stat__name" id="first-player-name-field">
+            Jack
+          </span>
+          <div class="race-stat__points" id="first-player-score">
+          </div>
+        </div>
+  
+        <div class="kbd-keys player__kbd-keys">
+          <p class="kbd-key">W</p>
+          <p class="kbd-key">A</p>
+          <p class="kbd-key">S</p>
+          <p class="kbd-key">D</p>
+        </div>
+  
+        <div class="settings player__settings">
+          <h2 class="settings__header">
+            Name:
+          </h2>
+          <input 
+            type="text" 
+            class="settings__name-input" 
+            id="first-player-name-input"
+            maxlength="9"
+          >
+          <h2 class="settings__header">
+            Sprite:
+          </h2>
+          <div class="sprite-picker">
+            <i 
+              class="fas fa-chevron-circle-left"
+              id="first-player-left-button"
+            >
+            </i>
+            <img 
+              class="sprite-picker__img" 
+              src="" 
+              alt="sprite icon"
+              id="first-player-sprite-img"
+            >
+            <i 
+              class="fas fa-chevron-circle-right"
+              id="first-player-right-button"
+            >
+            </i>
+          </div>
+        </div>
+      </section>
+
+      <div class="main-column">
+        <canvas id="canvas" width="800px", height="500px"></canvas>
+        <div class="new-game-menu">
+          <button class="btn" id="new-game-button">New Game</button>
+          <div class="map-picker">
+            <i 
+              class="fas fa-chevron-circle-left"
+              id="map-picker-left-button"
+            >
+            </i>
+            <img 
+              class="map-picker__img" 
+              src="" 
+              alt="map icon"
+              id="map-icon"
+            >
+            <i 
+              class="fas fa-chevron-circle-right"
+              id="map-picker-right-button"
+            >
+            </i>
+          </div>
+        </div>
+      </div>
+      
+      <section class="player" style="flex-shrink: 0">
+        <div class="race-stat player__race-stat">
+          <i class="blue fas fa-car" id="second-player-icon"></i>
+          <span class="race-stat__name" id="second-player-name-field">
+            John
+          </span>
+          <div class="race-stat__points" id="second-player-score">
+          </div>
+        </div>
+  
+        <div class="kbd-keys player__kbd-keys">
+          <p class="kbd-key kbd-key_icon">
+            <i class="fas fa-long-arrow-alt-up"></i>
+          </p>
+          <p class="kbd-key kbd-key_icon">
+            <i class="fas fa-long-arrow-alt-left"></i>
+          </p>
+          <p class="kbd-key kbd-key_icon">
+            <i class="fas fa-long-arrow-alt-down"></i>
+          </p>
+          <p class="kbd-key kbd-key_icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </p>
+        </div>
+  
+        <div class="settings player__settings">
+          <h2 class="settings__header">
+            Name:
+          </h2>
+          <input 
+            type="text" 
+            class="settings__name-input" 
+            id="second-player-name-input"
+            maxlength="9"
+          >
+          <h2 class="settings__header">
+            Sprite:
+          </h2>
+          <div class="sprite-picker">
+            <i class="fas fa-chevron-circle-left" id='second-player-left-button'></i>
+            <img 
+              class="sprite-picker__img" 
+              src="" 
+              alt="sprite icon"
+              id='second-player-sprite-img'
+            >
+            <i class="fas fa-chevron-circle-right" id='second-player-right-button'></i>
+          </div>
+        </div>
+      </section>
+      
+    </div> 
+  </body>
+</html>

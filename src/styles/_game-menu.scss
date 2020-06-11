@@ -1,0 +1,30 @@
+.new-game-menu {
+  background-color: #f0a72d;
+  border: 2px solid #b21e0b;
+  box-sizing: border-box;
+  flex-grow: 1;
+  padding: 1rem;
+  width: 100%;
+}
+
+.btn {
+  border: 0;
+  border-bottom: 5px solid #b21e0b;
+  background-color: #1e1c27;
+  color: #f8e8ac;
+  font-size: 3rem;
+  padding: 0.5rem;
+}
+
+.map-picker {
+  display: flex;
+  align-items: center;
+
+  color: $text-color;
+  float: right;
+  font-size: 4rem;
+}
+
+.map-picker__img {
+  margin: 0 2rem;
+}

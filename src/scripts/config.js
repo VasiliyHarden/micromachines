@@ -1,0 +1,9 @@
+
+const CONFIG = {
+  MAX_SCORE: 3,
+  COUNTDOWN: 2,
+  CANVAS_WIDTH: 800,
+  CANVAS_HEIGHT: 500
+}
+
+export default CONFIG;
